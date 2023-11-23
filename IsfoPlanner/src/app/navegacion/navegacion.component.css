@@ -1,0 +1,30 @@
+:root{
+  colorPrimario: #004b8d;
+  colorBlanco: #ffffff;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a{
+  font-weight: bold;
+}
+
+a:hover{
+  background-color: #004b8d;
+}
